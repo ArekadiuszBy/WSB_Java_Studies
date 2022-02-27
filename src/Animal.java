@@ -5,7 +5,7 @@ public class Animal {
     String name;
     Integer age;
     private Double weight;
-    private Boolean alive;
+    private final Boolean alive;
 
     Animal(String species, String name) {
         this.alive = true;
@@ -24,6 +24,6 @@ public class Animal {
 
     public void feed(){
         this.weight += 1;
-        System.out.println("Dzięki za jedzenie");
+        System.out.println("Dzięki za jedzenie!");
     }
 }

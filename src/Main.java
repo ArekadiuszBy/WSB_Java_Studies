@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Animal animal = new Animal("Kot", "Andrzej");
+        Animal animal = new Animal("Kot", "Andrzejos");
         System.out.println(animal.getWeight() + "\n");
         animal.feed();
         animal.feed();
